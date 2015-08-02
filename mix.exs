@@ -27,6 +27,9 @@ defmodule JesseTest.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:jesse, "~> 1.1.5", github: "klarna/jesse"},
+      {:exjsx, "~> 3.2.0"},
+    ]
   end
 end
